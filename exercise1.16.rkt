@@ -11,3 +11,5 @@
     (= (remainder n 2) 0))
 
 (iter-expt 3 3)
+
+(#%provide iter-expt even?)
