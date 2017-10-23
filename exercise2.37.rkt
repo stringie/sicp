@@ -11,7 +11,7 @@
 (define (matrix-*-vector m v) 
     (map (lambda (x) (dot-product x v)) m))
 
-;;; (matrix-*-vector (list (list 1 2) (list 3 4)) (li
+;;; (matrix-*-vector (list (list 1 2) (list 3 4)) (list 1 2))
 
 (define (transpose mat) 
     (accumulate-n cons nil mat))
